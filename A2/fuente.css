@@ -1,0 +1,30 @@
+    body {
+    background-color: brown;
+    margin: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.container  {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.item-1 {
+    background-color: aqua;
+    border: 2px solid black;
+    order: 3
+}
+
+.item-2 {
+    background-color: aqua;
+    width: 30px;
+    height: 10px;
+    order: 2;
+}
+
+.item-3 {
+    background-color: aqua;
+    width: 30px;
+    height: 10px;
+    order: 1;
+}

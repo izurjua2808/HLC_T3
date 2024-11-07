@@ -1,0 +1,42 @@
+body    {
+    background-color: cadetblue;
+    margin: 65px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+header {
+    background-color: rgb(245, 104, 163);
+    color: white;
+    text-align: center;
+    padding: 2px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.box {
+    background-color: rgb(156, 245, 104);
+    padding: 10px;
+    margin: 20px;
+    width: 50%;
+    border-radius: 15px;
+    text-align: justify;
+    color: rgb(155, 7, 253);
+    box-shadow:  0 4px 8px 5px rgb(238, 255, 0);
+    font-size: 18px;
+}
+
+.box p {
+    color: white;
+}
+
+.box:active {
+    box-shadow: none;
+}
+
+.box:hover {
+    cursor: pointer;
+}
